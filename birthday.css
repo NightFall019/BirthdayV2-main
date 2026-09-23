@@ -665,3 +665,34 @@ body{
 .galleryPic:nth-child(1) { animation-delay: 0s; }
 .galleryPic:nth-child(2) { animation-delay: 0.6s; }
 .galleryPic:nth-child(3) { animation-delay: 1.2s; }
+
+@media (max-width: 700px) {
+  #revealWrap {
+    top: 6%;
+    left: 5%;
+    width: 38%;
+  }
+
+  #revealGallery {
+    bottom: auto;
+    top: 60%;
+    right: 5%;
+    left: auto;
+    gap: 6px;
+  }
+
+  .galleryPic {
+    width: 60px;
+  }
+
+  #revealMsg {
+    bottom: 2%;
+    right: 4%;
+    max-width: 55%;
+    font-size: 1rem;
+  }
+
+  .wish__hero, #wHero {
+    font-size: 2rem;
+  }
+}
